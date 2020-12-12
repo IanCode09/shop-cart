@@ -4,26 +4,24 @@ import Navigation from './Navigation'
 
 const Header = () => {
     return (
-        <div className="container">
-            <div className="header-container">
+        <div className="header-container">
 
-                <Logo />
+            <Logo />
 
-                <div className="nav-items">
-                    <Navigation link="/cart" >
-                        CART
-                    </Navigation>
+            <div className="nav-items">
+                <Navigation link="/cart" >
+                    CART
+                </Navigation>
 
-                    <Navigation link="/checkout">
-                        CHECKOUT
-                    </Navigation>
+                <Navigation link="/checkout">
+                    CHECKOUT
+                </Navigation>
 
-                    <Navigation link="/login">
-                        LOG IN
-                    </Navigation>
-                </div>
-
+                <Navigation link="/login">
+                    LOG IN
+                </Navigation>
             </div>
+
         </div>
     )
 }

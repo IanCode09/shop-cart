@@ -4,7 +4,7 @@ import CurrencyFormat from 'react-currency-format'
 const Product = ({ listProduct }) => {
     return (
         <>
-            <img src={listProduct.image} />
+            <img src={listProduct.image} alt="imgProduct" />
             
             <div className="product-info">
                 <h2>{listProduct.name}</h2>
@@ -17,13 +17,13 @@ const Product = ({ listProduct }) => {
                 <p>{listProduct.description}</p>
 
                 <button className="btn btn-secondary">
-                    <i class="fas fa-plus"></i>
+                    <i className="fas fa-plus"></i>
                 </button>
 
                 <span>1</span>
 
                 <button className="btn btn-secondary">
-                    <i class="fas fa-minus"></i>
+                    <i className="fas fa-minus"></i>
                 </button>
             </div>
         </>
